@@ -25,7 +25,7 @@ classifiers = [
     "Topic :: Software Development :: Libraries",
 ]
 requires-python = ">=3.8"
-dependencies = ["pydobotplus>=0.1.0", "pyserial>=3.5"]
+dependencies = ["pydobotplus>=0.1.0", "pyserial>=3.4,<3.5"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0", "black", "ruff", "mypy"]
