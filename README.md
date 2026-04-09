@@ -2,7 +2,7 @@
 
 > A multi-font text-writing library for the **Dobot Magician** robotic arm.
 
-Write text on paper with your Dobot Magician using a choice of built-in fonts — from clean geometric strokes to flowing cursive, hollow stencil outlines, and heavy bold — all without any external font library.
+Write text on paper with your Dobot Magician using a choice of built-in fonts — from clean geometric strokes to flowing cursive, hollow stencil outlines, and heavy bold. All fonts are custom designs created for this project.
 
 ---
 
@@ -29,7 +29,7 @@ MY_FONT = make_italic(make_stencil(CLASSIC), slant=0.35)
 
 ## 📦 Installation
 
-### From PyPI *(once published)*
+### From PyPI
 ```bash
 pip install dobot-writer
 ```
@@ -289,6 +289,6 @@ MIT — see [LICENSE](LICENSE).
 
 ## 🙏 Acknowledgements
 
-Built on top of [pydobotplus](https://github.com/AlexGLiu/pydobotplus) for Dobot Magician serial communication.
+**Font Designs:** All fonts and transforms in this library are custom designs.
 
-Font design inspired by single-stroke Hershey fonts used in CNC and pen-plotter communities.
+**Dependencies:** Uses [pydobotplus](https://github.com/AlexGLiu/pydobotplus) for Dobot Magician serial communication.
